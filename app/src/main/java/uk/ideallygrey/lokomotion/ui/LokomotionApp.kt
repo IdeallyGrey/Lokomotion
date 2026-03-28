@@ -19,11 +19,9 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 
 @Composable
 fun LokomotionApp() {
-
     val tswViewModel: TSWViewModel = viewModel()
     HomeScreen(
         tswUiState = tswViewModel.tswUiState,
-        tswViewModel = tswViewModel
     )
 
 }
