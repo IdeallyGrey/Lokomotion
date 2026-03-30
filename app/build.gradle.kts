@@ -66,4 +66,8 @@ dependencies {
 
     // Kotlin serialization
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0")
+
+    //OsmDroid
+    implementation("org.osmdroid:osmdroid-android:6.1.20")
+
 }
